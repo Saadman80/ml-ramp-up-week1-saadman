@@ -1,0 +1,52 @@
+{
+    "mean": {
+        "SepalLengthCm": 5.843333333333334,
+        "SepalWidthCm": 3.0540000000000003,
+        "PetalLengthCm": 3.758666666666666,
+        "PetalWidthCm": 1.1986666666666668
+    },
+    "std": {
+        "SepalLengthCm": 0.828066127977863,
+        "SepalWidthCm": 0.4335943113621737,
+        "PetalLengthCm": 1.7644204199522626,
+        "PetalWidthCm": 0.7631607417008411
+    },
+    "correlation": {
+        "SepalLengthCm": {
+            "SepalLengthCm": 1.0,
+            "SepalWidthCm": -0.10936924995064931,
+            "PetalLengthCm": 0.8717541573048716,
+            "PetalWidthCm": 0.8179536333691642
+        },
+        "SepalWidthCm": {
+            "SepalLengthCm": -0.10936924995064931,
+            "SepalWidthCm": 1.0,
+            "PetalLengthCm": -0.4205160964011539,
+            "PetalWidthCm": -0.35654408961380507
+        },
+        "PetalLengthCm": {
+            "SepalLengthCm": 0.8717541573048716,
+            "SepalWidthCm": -0.4205160964011539,
+            "PetalLengthCm": 1.0,
+            "PetalWidthCm": 0.9627570970509662
+        },
+        "PetalWidthCm": {
+            "SepalLengthCm": 0.8179536333691642,
+            "SepalWidthCm": -0.35654408961380507,
+            "PetalLengthCm": 0.9627570970509662,
+            "PetalWidthCm": 1.0
+        }
+    },
+    "class_distribution": {
+        "Iris-setosa": 50,
+        "Iris-versicolor": 50,
+        "Iris-virginica": 50
+    },
+    "observations": [
+        "Dataset is balanced",
+        "Petal features are strongly correlated as petal_length vs petal_width \u2248 0.96(correlation), Strong positive correlation",
+        "Sepal features are weakly correlated, sepal_length vs sepal_width \u2248 -0.11, Weak correlation",
+        "No missing values",
+        "Data distribution is approximately normal"
+    ]
+}

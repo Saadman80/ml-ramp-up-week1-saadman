@@ -1,0 +1,33 @@
+{
+    "num_rows": 150,
+    "num_columns": 6,
+    "columns": [
+        "Id",
+        "SepalLengthCm",
+        "SepalWidthCm",
+        "PetalLengthCm",
+        "PetalWidthCm",
+        "Species"
+    ],
+    "missing_values": {
+        "Id": 0,
+        "SepalLengthCm": 0,
+        "SepalWidthCm": 0,
+        "PetalLengthCm": 0,
+        "PetalWidthCm": 0,
+        "Species": 0
+    },
+    "data_types": {
+        "Id": "int64",
+        "SepalLengthCm": "float64",
+        "SepalWidthCm": "float64",
+        "PetalLengthCm": "float64",
+        "PetalWidthCm": "float64",
+        "Species": "str"
+    },
+    "target_distribution": {
+        "Iris-setosa": 50,
+        "Iris-versicolor": 50,
+        "Iris-virginica": 50
+    }
+}
