@@ -1,0 +1,23 @@
+{
+    "encoding": {
+        "setosa": 0,
+        "versicolor": 1,
+        "virginica": 2
+    },
+    "scaling_applied": [
+        "StandardScaler",
+        "MinMaxScaler"
+    ],
+    "new_features": [
+        "petal_area",
+        "sepal_area",
+        "petal_sepal_ratio"
+    ],
+    "observations": [
+        "No missing data",
+        "Labels successfully encoded",
+        "Features standardized",
+        "Normalization successful",
+        "Engineered features improved correlation patterns"
+    ]
+}

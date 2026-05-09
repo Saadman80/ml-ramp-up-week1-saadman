@@ -1,0 +1,39 @@
+{
+    "results": {
+        "LogisticRegression": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 1.0
+        },
+        "DecisionTree": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9333333333333333
+        },
+        "RandomForest": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 0.9866666666666667
+        },
+        "SVM": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "cv_mean": 1.0
+        }
+    },
+    "best_model": "LogisticRegression",
+    "observations": [
+        "SVM and RandomForest performed strongly",
+        "DecisionTree showed slightly lower stability",
+        "Cross-validation scores remained consistent",
+        "Pipeline prevented preprocessing leakage"
+    ]
+}
